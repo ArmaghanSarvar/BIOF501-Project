@@ -76,6 +76,7 @@ conda activate tigmint_env
 ```
 snakemake --cores 4
 ```
+6. You can configure the parameters of Tigmint in 'config.yaml'.
 
 #### Input Files
 The input should be a set of Linked-Reads (single fastq file) and an assembled contig (fasta file). You can define the location of the input files in `config.yaml`. If the files are hosted remotely, the download link should be provided in `config.yaml`. We also support automatical decompression for files that are compressed in the gzip format.
