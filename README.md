@@ -110,7 +110,7 @@ The output is available in the *expected_output* directory under the following n
 The output files indicate that the original contig was misassembled at 5 different locations. Each separate segment is demonstrated using a different color.
 
 <p align="center">
-<img src="expected_output/celegans_separated_molecules.png" width="400" height="200">
+<img src="expected_output/celegans_separated_molecules.png" width="500" height="400">
 </p>
 
 To show the pipeline working on a remote dataset as well, we are providing the results for a synthetic dataset from Tigmint's GitHub repository. Modify `config.yaml` using the following configurations to download the data.
@@ -128,7 +128,7 @@ After running `snakemake`, you can verify your results by comparing them to the 
 
 As it can be seen from the image below, the synthetic file cuts the original contig in two locations, resulting in three separate segments.
 <p align="center">
-<img src="expected_output/synthetic_separated_molecules.png" width="400" height="200">
+<img src="expected_output/synthetic_separated_molecules.png" width="500" height="400">
 </p>
 
 
