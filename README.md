@@ -52,7 +52,7 @@ Tigmint v1.2.2
 bwa v0.7.17
 samtools v1.9
 matplotlib v3.2.2
-Mac/Unix OS
+Mac/Linux OS
 ```
 #### Installation
 1. First, you can clone this repository by running the following command:
@@ -113,7 +113,7 @@ The output files indicate that the original contig was misassembled at 5 differe
 <img src="expected_output/celegans_separated_molecules.png" width="500" height="400">
 </p>
 
-To show the pipeline working on a remote dataset as well, we are providing the results for a synthetic dataset from Tigmint's GitHub repository. Modify `config.yaml` using the following configurations to download the data.
+To show the pipeline working on a remote dataset as well, I have provided the results for a synthetic dataset from Tigmint's GitHub repository. Modify `config.yaml` using the following configurations to download the data.
 
 ```
 contig_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa"
