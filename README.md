@@ -90,6 +90,39 @@ The output of the pipeline is as follows:
 * The visualization of the molecule extents stored as *"output/separated_molecules.png"*
 
 ### Results
+The pipeline has been tested on an assembled contig of C. elegance. The input data is available in the dataset folder under the following names:
+* celegans-contig.fa
+* celegans-linkedreads.fq
+
+The chosen configuration is as follows. 
+```
+spanning_molecule_threshold: 50
+window_size: 1000
+minimum_molecule_size: 2000
+trim: 0
+```
+The output is available in the *expected_output* directory under the following names:
+* celegans_separated_contigs.fa
+* celegans_separated_contigs.fa.bed
+* celegans_separated_molecules.png
+
+The output files indicate that the original contig was misassembled at 5 different locations. Each separate segment is demonstrated using a different color.
+
+To show the pipeline working on a remote dataset as well, we are providing the results for a synthetic dataset from Tigmint's GitHub repository. Modify `config.yaml` using the following configurations to download the data.
+
+```
+contig_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa"
+linked_reads_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_linkedreads.fq.gz"
+zipped_contig: False
+zipped_linked_reads: True
+```
+After running `snakemake`, you can verify your results by comparing them to the following files in the *expected_output* directory:
+* synthetic_separated_contigs.fa
+* synthetic_separated_contigs.fa.bed
+* synthetic_separated_molecules.png
+
+As it can be seen from the image, the synthetic file cuts the original contig in two locations, resulting in three separate segments.
+
 
 
 
