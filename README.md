@@ -17,7 +17,7 @@ The purpose of this pipeline is to use the workflow presented in the Tigmint pap
 ### Dataset
 <img src="figs/c-elegans.jpeg" width="190" height="130">
 
-The dataset used in this project is Caenorhabditis elegans (known as C. elegans) simulated linked reads, generated using LRSim [[3](#references)] by the authors of the Tigmint paper. 
+The dataset used in this project is Caenorhabditis elegans (known as C. elegans) simulated linked reads, generated using LRSim [[3](#references)] by the authors of the Tigmint paper who granted me access to it. 
 To elaborate more upon the dataset, C. elegans is a non-infectious, non-pathogenic, non-parasitic organism.  It is small, growing to about 1 mm in length, and lives in the soil in many parts of the world, where it survives by feeding on microbes such as bacteria.
 Currently, an international consortium of laboratories are collaborating on a project to sequence the entire 100,000,000 bases of DNA of the C. elegans genome. The development and function of this organism is encoded by an estimated 17,800 distinct genes.
 <br>
