@@ -142,6 +142,7 @@ As it can be seen from the image below, the synthetic file cuts the original con
 <img src="expected_output/synthetic_separated_molecules.png" width="500" height="400">
 </p>
 
+The above results show that in this pipeline, we were able to identify misassemblies in the draft contig of the input dataset, without the use of any reference genome. 
 
 ### References
 [1] Coombe, Lauren, et al. "LongStitch: High-quality genome assembly correction and scaffolding using long reads." bioRxiv (2021).
