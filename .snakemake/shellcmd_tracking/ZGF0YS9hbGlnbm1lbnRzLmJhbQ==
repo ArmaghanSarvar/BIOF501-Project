@@ -1,0 +1,4 @@
+
+		bwa index dataset/celegans.abyss.fa
+		bwa mem -C -t4 dataset/celegans.abyss.fa dataset/sub2.fq | samtools sort -tBX -o data/alignments.bam -@4
+		

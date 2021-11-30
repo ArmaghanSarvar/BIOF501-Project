@@ -1,0 +1,19 @@
+input_contig_path: "dataset/celegans.abyss.fa"
+input_linked_reads_path: "dataset/sub2.fq"
+
+# If data is hosted remotely. Leave empty if data is locally available.
+#contig_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa"
+#linked_reads_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_linkedreads.fq.gz"
+contig_download_link: ""
+linked_reads_download_link: ""
+zipped_contig: False
+zipped_linked_reads: True
+
+threads: 4
+
+# Tigmint Parameters
+spanning_molecule_threshold: 50
+window_size: 1000
+minimum_molecule_size: 2000
+trim: 0
+

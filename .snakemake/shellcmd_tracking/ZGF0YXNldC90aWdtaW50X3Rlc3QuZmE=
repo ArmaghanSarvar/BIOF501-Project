@@ -1,0 +1,7 @@
+
+		wget https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa
+		wget https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_linkedreads.fq.gz
+		gunzip -d test_linkedreads.fq.gz
+		mv test_contig.fa dataset/tigmint_test.fa
+		mv test_linkedreads.fq dataset/tigmint_linkedreads.fq
+		

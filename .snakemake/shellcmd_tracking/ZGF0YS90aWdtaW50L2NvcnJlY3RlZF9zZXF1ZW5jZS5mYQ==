@@ -1,0 +1,1 @@
+tigmint-cut -p8 -n50 dataset/tigmint_test.fa data/tigmint/molecules.bed -o data/tigmint/corrected_sequence.fa

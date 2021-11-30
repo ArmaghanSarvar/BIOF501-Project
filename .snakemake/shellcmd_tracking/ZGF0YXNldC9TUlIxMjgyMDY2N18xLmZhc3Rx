@@ -1,0 +1,3 @@
+
+        fastq-dump SRR12820667 --split-files -O dataset
+        

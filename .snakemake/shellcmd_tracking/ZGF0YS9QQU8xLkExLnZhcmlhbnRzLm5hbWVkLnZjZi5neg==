@@ -1,0 +1,4 @@
+
+		bcftools mpileup -Ou -f dataset/GCF_000006765.1_ASM676v1_genomic.fna data/sorted_alignments.bam | bcftools call -Ou -mv | bcftools filter -e 'QUAL<30 | DP<20' --threads 8 -Oz > data/PAO1.A1.variants.named.vcf.gz
+		gunzip -c data/PAO1.A1.variants.named.vcf.gz | sed -E 's/^NC_002516.2/Chromosome/g' | gzip > data/PAO1.A1.variants.named.vcf.gz
+		

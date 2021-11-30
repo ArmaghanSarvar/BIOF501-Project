@@ -1,0 +1,4 @@
+
+		bwa index dataset/tigmint_test.fa
+		bwa mem -t8 -C dataset/tigmint_test.fa dataset/tigmint_linkedreads.fq | samtools sort -tBX -o data/tigmint/alignments.bam -@8
+		
