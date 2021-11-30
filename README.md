@@ -79,7 +79,7 @@ snakemake --cores 4
 6. You can configure the parameters of Tigmint in 'config.yaml'.
 
 #### Manual Installation
-If the above automatic installation does not work for you, you can try a manual installation by running the following commands:
+You can try a manual installation by running the following commands:
 
 ```
 conda create --name tigmint_env python=3.6
