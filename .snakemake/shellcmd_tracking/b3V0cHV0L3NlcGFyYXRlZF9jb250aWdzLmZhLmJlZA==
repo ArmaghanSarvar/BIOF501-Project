@@ -1,0 +1,1 @@
+tigmint-cut -n50 -w1000 -t0 -p4 dataset/test-contig.fa data/molecules.bed -o output/separated_contigs.fa

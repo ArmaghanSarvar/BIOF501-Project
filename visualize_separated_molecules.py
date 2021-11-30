@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plotter
 
-file = open('data/separated_contigs.fa.bed')
+file = open('output/separated_contigs.fa.bed')
 data = file.read()
 file.close()
 
