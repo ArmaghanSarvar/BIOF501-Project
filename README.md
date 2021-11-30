@@ -87,7 +87,7 @@ The pipeline create some intermediate files in the directory of the dataset, and
 The output of the pipeline is as follows:
 * The separated molecule extents of the original assembled contig stored as *"output/separated_contigs.fa.bed"*
 * The cut assembled contig as a FastA file stores as *"output/separated_contigs.fa"*
-* The visualization of the molecule extents stored as "output/separated_molecules.png"
+* The visualization of the molecule extents stored as *"output/separated_molecules.png"*
 
 ### Results
 
