@@ -106,7 +106,7 @@ The pipeline has been tested on an assembled contig of C. elegance. The input da
 * celegans-contig.fa
 * celegans-linkedreads.fq
 
-The chosen configuration is as follows. 
+The chosen configuration is as follows. The detailed functionality of each parameter can be found in the Tigmint paper.
 ```
 spanning_molecule_threshold: 50
 window_size: 1000
