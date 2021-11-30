@@ -78,6 +78,7 @@ snakemake --cores 4
 ```
 6. You can configure the parameters of Tigmint in 'config.yaml'.
 
+##### Manual Installation
 If the above automatic installation does not work for you, you can try a manual installation by running the following commands:
 
 ```
