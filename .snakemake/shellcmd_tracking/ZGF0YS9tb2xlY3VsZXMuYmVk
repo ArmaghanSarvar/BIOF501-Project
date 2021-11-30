@@ -1,1 +1,0 @@
-tigmint-molecule data/alignments.bam -s2000 -o data/molecules.bed

@@ -1,6 +1,0 @@
-
-		curl https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa --output dataset/test-contig.fa
-		curl https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_linkedreads.fq.gz --output dataset/test-linkedreads.fq.gz
-gunzip -c dataset/test-linkedreads.fq.gz > dataset/test-linkedreads.fq
-rm dataset/test-linkedreads.fq.gz
-		

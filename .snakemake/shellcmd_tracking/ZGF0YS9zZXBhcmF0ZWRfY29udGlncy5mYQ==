@@ -1,1 +1,0 @@
-tigmint-cut -n50 -w1000 -t0 -p4 dataset/celegans.abyss.fa data/molecules.bed -o data/separated_contigs.fa

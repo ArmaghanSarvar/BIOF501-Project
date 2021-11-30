@@ -1,1 +1,0 @@
-samtools view data/sorted_alignments.bam -h -o output/sorted_alignments.sam -@8

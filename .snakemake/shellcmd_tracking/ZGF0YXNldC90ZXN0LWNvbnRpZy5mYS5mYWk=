@@ -1,1 +1,0 @@
-samtools faidx dataset/test-contig.fa
