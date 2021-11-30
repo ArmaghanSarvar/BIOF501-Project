@@ -78,6 +78,16 @@ snakemake --cores 4
 ```
 6. You can configure the parameters of Tigmint in 'config.yaml'.
 
+If the above automatic installation does not work for you, you can try a manual installation by running the following commands:
+
+```
+conda create --name tigmint_env python=3.6
+conda activate tigmint_env
+conda install -c bioconda snakemake=3.13.3 bwa=0.7.17 samtools=1.9
+conda install -c bioconda tigmint
+conda install -c conda-forge matplotlib
+```
+
 #### Input Files
 The input should be a set of Linked-Reads (single fastq file) and an assembled contig (fasta file). You can define the location of the input files in `config.yaml`. If the files are hosted remotely, the download link should be provided in `config.yaml`. We also support automatical decompression for files that are compressed in the gzip format.
 
