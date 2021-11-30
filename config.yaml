@@ -1,5 +1,5 @@
-input_contig_path: "dataset/celegans.abyss.fa"
-input_linked_reads_path: "dataset/sub2.fq"
+input_contig_path: "dataset/celegans-contig.fa"
+input_linked_reads_path: "dataset/celegans-linkedreads.fq"
 
 # If data is hosted remotely. Leave empty if data is locally available.
 #contig_download_link: "https://raw.githubusercontent.com/bcgsc/tigmint/master/tests/test_contig.fa"

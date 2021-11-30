@@ -73,8 +73,8 @@ rule cut_misassemblies:
 		index = rules.index_contig.output
 
 	output:
-		separated_contigs = "data/separated_contigs.fa",
-		separated_molecules = "data/separated_contigs.fa.bed"
+		separated_contigs = "output/separated_contigs.fa",
+		separated_molecules = "output/separated_contigs.fa.bed"
 
 	shell:
 		"tigmint-cut -n{config[spanning_molecule_threshold]} -w{config[window_size]} -t{config[trim]} -p{config[threads]} {input.contig} {input.molecules} -o {output.separated_contigs}"
