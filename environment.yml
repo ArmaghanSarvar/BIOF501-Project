@@ -1,4 +1,4 @@
-name: armaghan
+name: tigmint_env
 channels:
   - conda-forge
   - bioconda
