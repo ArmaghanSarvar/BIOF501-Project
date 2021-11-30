@@ -72,11 +72,11 @@ conda env create --name tigmint_env --file environment.yml
 ```
 conda activate tigmint_env
 ```
-5. You can now run snakemake by executing the following code. The number of cores can be specified using the `--cores` argument.
+5. Configure the parameters of Tigmint in 'config.yaml'.
+6. You can now run snakemake by executing the following code. The number of cores can be specified using the `--cores` argument.
 ```
 snakemake --cores 4
 ```
-6. You can configure the parameters of Tigmint in 'config.yaml'.
 
 #### Manual Installation
 You can try a manual installation by running the following commands:
