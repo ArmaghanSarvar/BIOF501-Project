@@ -84,4 +84,4 @@ dependencies:
   - xz=5.2.5=h1de35cc_0
   - yaml=0.2.5=haf1e3a3_0
   - zlib=1.2.11=h1de35cc_3
-prefix: /Users/armaghansarvar/miniconda3/envs/armaghan
+prefix: /Users/armaghansarvar/miniconda3/envs/tigmint_env
