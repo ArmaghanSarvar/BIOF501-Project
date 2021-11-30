@@ -77,7 +77,21 @@ conda activate tigmint_env
 snakemake --cores 4
 ```
 
+### Input Files
+The input should be a set of Linked-Reads (single fastq file) and an assembled contig (fasta file). You can define the location of the input files in `config.yaml`. If the files are hosted remotely, the download link should be provided in `config.yaml`. We also support automatical decompression for files that are compressed in the gzip format.
+
+### Intermediate Files
+The pipeline create some intermediate files in the directory of the dataset, and the "data" directory. These files are created using `bwa`, `samtools`, and `tigmint` tools, and include the index for the assembled contig, the alignments, and the molecule extents.
+
+### Output File
+The output of the pipeline is as follows:
+* The separated molecule extents of the original assembled contig stored as *"output/separated_contigs.fa.bed"*
+* The cut assembled contig as a FastA file stores as *"output/separated_contigs.fa"*
+* The visualization of the molecule extents stored as "output/separated_molecules.png"
+
 ### Results
+
+
 
 ### References
 [1] Coombe, Lauren, et al. "LongStitch: High-quality genome assembly correction and scaffolding using long reads." bioRxiv (2021).
